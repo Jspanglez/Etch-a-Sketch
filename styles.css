@@ -1,3 +1,13 @@
+body {
+  background-color: rgb(45, 45, 45);
+}
+
+.container {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
 .square {
   border: 2px solid white;
   width: 90px;
