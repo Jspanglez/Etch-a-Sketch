@@ -16,3 +16,11 @@ body {
   font-size: larger;
   text-align: center;
 }
+
+.square:hover {
+  background-color: rgb(255, 204, 0);
+}
+
+.selected {
+  background-color: rgb(255, 204, 0);
+}
