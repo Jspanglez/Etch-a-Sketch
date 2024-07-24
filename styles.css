@@ -4,8 +4,10 @@ body {
 
 .container {
   display: flex;
-  align-content: flex-start;
   flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
 }
 
 .square {
