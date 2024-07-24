@@ -15,4 +15,16 @@ function createGrid(input) {
     container.appendChild(square)
   }
 }
+
+btn.addEventListener('click', () => {
+  let squares = document.querySelectorAll('.square');
+  squares.forEach(square => {
+    square.remove()
+    })
+  const input = prompt("How many sqaures do you want on each side?")
+  if (input > 16) {
+    alert("You cannot exceed a 16 x 16 grid.")
+  } else {
+    createGrid(parseInt(input))
+  }
 })
