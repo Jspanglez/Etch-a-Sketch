@@ -9,12 +9,13 @@ body {
 }
 
 .square {
+  flex: 0 0 auto;
   border: 2px solid white;
-  width: 90px;
-  height: 90px;
+  box-sizing: border-box;
   color: white;
-  font-size: larger;
   text-align: center;
+  /* width: 15.63px;
+  height: 15.63px; */
 }
 
 .square:hover {
