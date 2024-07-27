@@ -1,5 +1,6 @@
 const container = document.getElementById("container")
-const btn = document.querySelector('button');
+const btn = document.querySelector('button')
+const color = document.getElementById('colorPicker')
 
 function createGrid(input) {
   for (let i = 0; i < (input * input); i++) {
@@ -11,6 +12,11 @@ function createGrid(input) {
     square.style.height = boxSize + 'px'
     square.addEventListener("click", function() {
       this.classList.toggle("selected")
+      if(this.classList.contains("selected")) {
+        this.style.backgroundColor = color.value
+      } else {
+        this.style.backgroundColor = ""
+      }
     })
     container.appendChild(square)
   }
