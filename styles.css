@@ -31,11 +31,11 @@ body {
 }
 
 .square:hover {
-  background-color: rgb(255, 204, 0);
+  background-color: rgb(150, 150, 150);
 }
 
 .selected {
-  background-color: rgb(255, 204, 0);
+  
 }
 
 .btnContainer {
@@ -50,4 +50,23 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   margin: 20px;
+}
+
+.colorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 161.49px;
+  height: 41.6px;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+}
+
+.superContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
